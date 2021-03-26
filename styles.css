@@ -32,11 +32,17 @@ body {
   background-color: #fc5863;
 }
 
+#buttons {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+
 .number-btn {
-  width: 20%;
-  height: 4rem;
+  width: 5rem;
+  height: 3rem;
   border-radius: 10px;
   border: 1px solid black;
-  margin: 0 auto;
+  margin: 0.5rem;
   background-color: #d9d9d9;
 }
