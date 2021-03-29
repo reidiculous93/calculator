@@ -41,7 +41,7 @@ function clearDisplay(){
 }
 
 function appendPoint() {
-    if (shouldResetDisplat) resetDisplay();
+    if (shouldResetDisplay) resetDisplay();
     if (display.textContent === "") display.textContent = "0";
     if (display.textContent.includes(".")) return;
     display.textContent += ".";
@@ -101,8 +101,8 @@ function multiply (a,b) {
     return a * b;
 }
 
-function divide (x, y) {
-	return x / y;
+function divide (a, b) {
+	return a / b;
 }
 
 function operate(opr,a,b){
@@ -114,7 +114,7 @@ function operate(opr,a,b){
         case "-":
             return subtract(a,b);
         case "x":
-        return multiplay(a,b);
+        return multiply(a,b);
         case "÷":
             if (b === 0) return null;
             else return divide(a,b);
