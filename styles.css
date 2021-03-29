@@ -24,6 +24,7 @@ body {
   text-align: end;
   font-size: 3rem;
   word-wrap: break-word;
+  letter-spacing: -1px;
 }
 
 #clear {
@@ -50,7 +51,9 @@ body {
   background-color: #d9d9d9;
 }
 
-.operator-btn {
+.operator-btn,
+.equals-btn,
+.point-btn {
   width: 5rem;
   height: 3rem;
   border-radius: 10px;
